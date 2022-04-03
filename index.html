@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="index.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<h1 class="heading">
+			<span class="h-1st-part">Generate a</span>
+			<span class="h-2nd-part">random password</span>
+		</h1>
+		<p class="subheading">Never use an insecure password again.</p>
+		<div class="btn-and-input">
+			<div class="btn-and-input-item length">
+				<span>Length:</span>
+				<input type="text" value="15" size="3" id="password-length" />
+			</div>
+			<button onclick="generatePasswords()" id="generate-btn" class="btn-and-input-item">
+				<span class="emoji">&#9889;</span>
+				<span>Generate passwords</span>
+			</button>
+		</div>
+		<hr class="h-line">
+		<div id="passwords" class="passwordsFlex">
+			<input type="text" class="passwordInstanceItem" />
+			<input type="text" class="passwordInstanceItem" />
+			<input type="text" class="passwordInstanceItem" />
+			<input type="text" class="passwordInstanceItem" />
+		</div>
+		<script src="index.js"></script>
+	</body>
+</html>

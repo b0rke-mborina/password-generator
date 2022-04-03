@@ -1,0 +1,106 @@
+body {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+	background-color: #282e4f;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.heading {
+	margin-top: 100px;
+	margin-bottom: 0px;
+}
+
+.subheading {
+	color: #ababab;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.h-1st-part {
+	color: #FFFFFF;
+	white-space: nowrap;
+}
+
+.h-2nd-part {
+	color: #00c761;
+	white-space: nowrap;
+}
+
+.btn-and-input {
+	margin-top: 35px;
+	margin-bottom: 0px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: left;
+}
+
+.btn-and-input-item {
+	text-align: space-between;
+	color: #FFFFFF;
+	background-color: #ababab;
+	border-radius: 5px;
+	margin: 5px;
+	margin-right: 25px;
+	padding: 10px;
+	font-weight: bold;
+	border: none;
+}
+
+.length {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#password-length, #password-length:active {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+	background-color: #ababab;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+}
+
+#generate-btn {
+	background-color: #00c761;
+}
+
+.emoji {
+	color: transparent;
+	text-shadow: 0 0 0 #FFFFFF;
+}
+
+.h-line {
+	border: none;
+	border-top: 1px solid #404980;
+	margin-top: 25px;
+	margin-bottom: 0px;
+}
+
+.passwordsFlex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 25px;
+}
+
+.passwordInstanceItem {
+	background-color: #404980;
+	border: none;
+	border-radius: 5px;
+	width: 200px;
+	text-align: center;
+	margin: 10px 2px;
+	padding: 5px 15px;
+	color: #00c761;
+}
